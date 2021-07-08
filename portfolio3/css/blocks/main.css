@@ -1,0 +1,22 @@
+.main__content{
+	display: flex;
+
+	
+	
+}
+.main__column{
+	width: 264px;
+	margin-right: 24px;
+}
+
+
+.main__text{
+	padding-top: 15px;
+}
+@media(max-width: 800px){
+	.main__content {
+		display: block;
+		
+	}
+
+}

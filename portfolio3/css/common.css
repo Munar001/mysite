@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Montserrat, sans-serif;
+overflow: hidden auto;
+}
+
+.container{
+	max-width: 840px;
+	margin: 100px auto;
+}
+
+h1{
+	font-weight: 500px;
+	font-size: 24px;
+	line-height: 38.4px;
+	font-style: normal;
+	color:#444444;
+}
+.text__abc{
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 25.6px;
+	color: #999999;
+}
+
+
+.text__df{
+	font-size: 16px;
+	line-height: 19.5px;
+	font-style: normal;
+	color: #444444;
+	font-weight: 500;
+}
+
+.text__ef{
+	font-size: 14px;
+	line-height: 17.07px;
+	font-style: normal;
+	color: #444444;
+	font-weight: 300;
+}
+
+@media(max-width: 800px){
+	body{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

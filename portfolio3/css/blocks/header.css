@@ -1,0 +1,21 @@
+.header{
+	position: relative;
+}
+.logo{
+	width: 64px;
+	height: 64px;
+	border-radius: 12px;
+}
+.header__text{
+	width: 552px;
+	height: 77px;
+}
+@media(max-width: 800px){
+	.header__content{
+		display: block;
+	}
+	.header__text{
+		width: 50%;
+		height:50%;
+	}
+}

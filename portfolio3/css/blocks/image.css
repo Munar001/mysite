@@ -1,0 +1,14 @@
+.image__content{
+	display: block;
+}
+
+.img__second{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+@media(max-width: 800px){
+	.img__first,.img__second,.img__three{
+		width: 100%;
+		height: 100%;
+	}
+}

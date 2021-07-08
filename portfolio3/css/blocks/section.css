@@ -1,0 +1,30 @@
+.section__content{
+	display: flex;
+
+}
+.section__column{
+	width: 264px;
+	margin-right: 24px;
+}
+
+
+
+.content__title{
+	padding-top: 15px;
+}
+.main__text{
+	padding-top: 15px;
+}
+
+@media(max-width: 800px){
+	.section__content {
+		display: block;
+	}
+
+	.section__img{
+		width: 80%;
+		height: 80%;
+		margin-top: 20px;
+	}
+
+}
